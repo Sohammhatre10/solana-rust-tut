@@ -1,0 +1,17 @@
+{
+  "name": "solana-client",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "client.ts",
+  "scripts": {
+    "start": "ts-node client.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.89.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.4.0"
+  }
+}
